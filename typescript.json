@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "strict": true,
+        "rootDir": ".",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "target": "es2016",
+        "module": "esnext",
+        "noImplicitAny": false,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "downlevelIteration": true,
+        "lib": [
+            "esnext",
+            "DOM"
+        ],
+        "path": {
+            "@/": "./"
+        }
+    },
+    "include": [
+        "packages/*/src",
+        "packages/*/__tests__"
+    ]
+}
